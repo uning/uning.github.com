@@ -1,0 +1,24 @@
+
+{% if site.weibo_user %}
+<section>
+ <p>
+<a  id="csdd" href="http://weibo.com/{{site.weibo_user}}"  wb_user_id="{{site.weibo_userid}}" >{{site.weibo_user}}@Weibo<span id="wb_follow_btn"> </a>
+	</p>
+  <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=1166443256" type="text/javascript"> </script>
+  <script type="text/javascript">
+	WB2.anyWhere(function(W){
+		W.widget.hoverCard({
+			id: "csdd"
+			});
+
+
+		W.widget.followButton({
+		//uid: '{{ site.weibo_userid}}',
+		uid: '{{site.weibo_userid}}',
+		id: "wb_follow_btn"
+        });
+      });
+
+  </script>
+</section>
+{% endif %}
