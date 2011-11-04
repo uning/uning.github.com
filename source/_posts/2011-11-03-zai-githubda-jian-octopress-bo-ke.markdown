@@ -73,7 +73,7 @@ categories: [Tech,Blog System,博客系统，wordpress，Octopress]
 
    将以下两个库链接到lib下即可解决
 ``` bash 
-   ln -s /usr/lib64/libpython2.4.so.1.0 /usr/lib/libpython2.4.so.1.0  #如果是高版本的python ，链接对应版本的库即可
+   sudo ln -s /usr/lib64/libpython2.4.so.1.0 /usr/lib/libpython2.4.so.1.0  #如果是高版本的python ，链接对应版本的库即可
    sudo ln -s /usr/lib64/libpython2.4.so  /usr/lib/libpython2.4.so
 ``` 
 
