@@ -38,8 +38,24 @@ categories: [Tech,Blog System,博客系统，wordpress，Octopress]
     rake generate   #生成内容
     rake preview    #可以在 4000端口 预览生成的内容
 ```
+- ###在octopress 设置github源码提交
+  打开 .git/config添加
+```
+[remote "origin"]
+	url = git@github.com:$youid/$youid.github.com.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "source"]
+	remote = origin
+	merge = refs/heads/source
+```
+  执行
+``` bash
+  git commit -am'prepare for source commit'
+  git branch source
+  git push origin source
+```
 --------------------------------------------------
- ##问题解决
+##问题&解决
    code 插件pyments 高亮问题
 ``` bash 
    .rvm/gems/ruby-1.9.2-p290/gems/ffi-1.0.10/lib/ffi/library.rb:121:in `block in ffi_lib': Could not open library 'lib.so': lib.so: cannot open shared object file: No such file or directory (LoadError)
