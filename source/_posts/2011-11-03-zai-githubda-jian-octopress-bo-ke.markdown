@@ -3,7 +3,11 @@ layout: post
 title: "在github搭建-Octopress 博客"
 date: 2011-11-03 14:00
 comments: true
-categories: [Tech,Blog System,博客系统，wordpress，Octopress]
+categories: 
+- Tech
+- Blog System
+- 博客系统
+- Octopress
 ---
 所有工作在Centos 5上完成,参考[官方文档](http://octopress.org/docs/),繁体教程
 
