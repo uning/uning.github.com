@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "在github搭建-Octopress 博客"
+title: "如何写blog -- 在github搭建-Octopress 博客"
 date: 2011-11-03 14:00
 comments: true
 categories: 
