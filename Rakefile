@@ -328,6 +328,21 @@ task :setup_github_pages do
   puts "\n---\n## Now you can deploy to #{url} with `rake deploy` ##"
 end
 
+desc "deploy soure of blog"
+task :sdeploy do
+  puts "## Deploying source to github "
+  cd "#{deploy_dir}/../" do
+    system "git add ."
+    system "git add -u"
+    message = "Source add at #{Time.now.utc}"
+    puts "\n## #{message}" 
+    system "git commit -m \"#{message}\""
+    puts "\n## Pushing source of  website"
+    system "git push origin source --force"
+    puts "\n## Github source complete"
+  end
+end
+
 def ok_failed(condition)
   if (condition)
     puts "OK"

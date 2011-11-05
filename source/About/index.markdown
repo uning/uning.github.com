@@ -13,11 +13,17 @@ aside: custom/asides/about.html
  你可以自娱自乐，也可以轻易的分享
 
 
-
- *这些地方也可以看到我*:
+ [这里](blog/2011/11/05/tingkun-dot-com/)也有些我的详细信息
+ *这些地方也可以看到我：*
 
 + [Weibo@tingkunz](htth://weibo.com/tingkunz)
 + [Twitter@tingkunz](https://twitter.com/#!/tingkunz)
 + [Facebook@kunlast](http://www.facebook.com/kunlast)
 
+ *以下方式可以联系：*
++ MSN@hotmail.com: uning.ztk
++ Gtalk@gmail.com: uning.ztk
++ QQ@qq.com: 28649236
+
+不出意外的话，I will keep online 
 
