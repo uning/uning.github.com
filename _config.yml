@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://uning.github.io
+url: http://uning.github.com
 title: "Tingkun's Blog"
 subtitle: "Tingkun @internet behind GFW"
 author: Tingkun
@@ -98,5 +98,5 @@ google_analytics_tracking_id: UA-26771300-1
 facebook_like: true   
 
 #Sina weibo
-weibo_user: tingkunz
+weibo_user: uning
 weibo_userid: 1769520197
