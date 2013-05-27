@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 闲扯 | Tingkun's Blog]]></title>
+  <link href="http://uning.github.com/blog/categories/xian-che/atom.xml" rel="self"/>
+  <link href="http://uning.github.com/"/>
+  <updated>2013-05-27T16:18:11+08:00</updated>
+  <id>http://uning.github.com/</id>
+  <author>
+    <name><![CDATA[Tingkun]]></name>
+    <email><![CDATA[uning.ztk@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[大兴]]></title>
+    <link href="http://uning.github.com/blog/2011/11/07/da-xing/"/>
+    <updated>2011-11-07T11:58:00+08:00</updated>
+    <id>http://uning.github.com/blog/2011/11/07/da-xing</id>
+    <content type="html"><![CDATA[<p>  周日,很远的路，两次地铁 + 一次从起点站到终点站的公交，3小时,到了大兴
+ 这地方很热闹，小摊，商铺，路人，车，熙熙攘攘，自行车装上红绿灯，停在路边
+ 恍惚间有种穿越的感觉</p>
+
+<p>  游荡半小时后，朋友终于出现，然后一起游荡，无话可也说无需多说</p>
+]]></content>
+  </entry>
+  
+</feed>

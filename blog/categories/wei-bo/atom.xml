@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 微博 | Tingkun's Blog]]></title>
+  <link href="http://uning.github.com/blog/categories/wei-bo/atom.xml" rel="self"/>
+  <link href="http://uning.github.com/"/>
+  <updated>2013-05-27T16:18:11+08:00</updated>
+  <id>http://uning.github.com/</id>
+  <author>
+    <name><![CDATA[Tingkun]]></name>
+    <email><![CDATA[uning.ztk@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[新浪微博侧栏widget定制-Octress]]></title>
+    <link href="http://uning.github.com/blog/2011/11/05/xin-lang-wei-bo-ce-lan-widgetding-zhi-octress/"/>
+    <updated>2011-11-05T13:11:00+08:00</updated>
+    <id>http://uning.github.com/blog/2011/11/05/xin-lang-wei-bo-ce-lan-widgetding-zhi-octress</id>
+    <content type="html"><![CDATA[<p>Octresss毕竟是国外的人做的，国内服务几乎没加
+不过，参照twitter，添加新浪微博侧栏也就是几分钟的事情</p>
+
+<p> 定制侧栏的文件放在 source/_includes/asides/下
+1. 创建文件weibo.html
+``` html source/_includes/asides/weibo.html
+
+<section>
+ <p>
+<a  id="hover_pop" href="http://weibo.com/tingkunz"  wb_user_id="1769520197" >tingkunz@Weibo<span id="wb_follow_btn"> </a></p>
+
+<pre><code>&lt;/p&gt;
+</code></pre>
+
+<p>  <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=1166443256" type="text/javascript"> </script>
+  <script type="text/javascript"></p>
+
+<pre><code>WB2.anyWhere(function(W){
+    W.widget.hoverCard({
+        id: "hover_pop"
+        });
+
+
+    W.widget.followButton({
+    //uid: '1769520197',
+    uid: '1769520197',
+    id: "wb_follow_btn"
+    });
+  });
+</code></pre>
+
+<p>  </script>
+</section>
+
+<code>
+2. 在_config.yml，添加,当然将 weibo_xxx改成你的就ok了
+</code> yml</p>
+
+<h1>Sina weibo</h1>
+
+<p>weibo_user: tingkunz
+weibo_userid: 1769520197
+```
+搞定!</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 每日blog | Tingkun's Blog]]></title>
+  <link href="http://uning.github.com/blog/categories/mei-ri-blog/atom.xml" rel="self"/>
+  <link href="http://uning.github.com/"/>
+  <updated>2013-05-27T16:18:11+08:00</updated>
+  <id>http://uning.github.com/</id>
+  <author>
+    <name><![CDATA[Tingkun]]></name>
+    <email><![CDATA[uning.ztk@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[常用的用户名 —— tingkun，uning,tingkun.com]]></title>
+    <link href="http://uning.github.com/blog/2011/11/05/tingkun-dot-com/"/>
+    <updated>2011-11-05T13:32:00+08:00</updated>
+    <id>http://uning.github.com/blog/2011/11/05/tingkun-dot-com</id>
+    <content type="html"><![CDATA[<p>闲扯几句用户名相关的</p>
+
+<ul>
+<li><p><strong>tingkun</strong> 我名字廷坤的全拼，我在网上id or username 之一</p></li>
+<li><p><strong>uning</strong> 功能上跟<strong>uning</strong>一样，来自我tingkun全拼的韵母部分组合，一直将其念U N I N G，简化为u ning -- 幽灵（来自丁昱同学）</p></li>
+<li><p><strong>tingkun.com</strong>，一直想有一个站点，写blog，可是这个双拼域名，很早就被注册了
+   直到2008年的某一天，<a href="http://weibo.com/leeffett">李烨</a>同学不知道从哪里弄到这个域名送给我
+   可是几年来我除了用这个域名注册了google apps 外，什么也没做，谢谢他</p></li>
+<li><p>另外，有一些衍生出来的，uning.ztk,tingkunz,我也在常用，多年来，他们在代表我出现的地方，比<em>廷坤</em>要多多了</p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
